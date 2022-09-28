@@ -10,7 +10,7 @@ app.get('/users', (req, res) => {
     res.json([{}]);
 });
 
-
+// Server port config
 app.listen(process.env.PORT, () => {
     console.log('Server listening at http://%s :', process.env.PORT);
 });
