@@ -12,5 +12,5 @@ app.get('/users', (req, res) => {
 
 
 app.listen(process.env.PORT, () => {
-    console.log('Server listening at http://%s', process.env.PORT);
+    console.log('Server listening at http://%s - ', process.env.PORT);
 });
